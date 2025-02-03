@@ -1,11 +1,22 @@
-# Bike Sharing Data Analysis
+# Proyek Analisis Data: Bike Sharing Dataset
 
-# 📌 Tentang Proyek
-Proyek ini menganalisis dataset penyewaan sepeda dengan fokus pada:
-1. Pengaruh musim terhadap jumlah penyewaan
-2. Pengaruh cuaca terhadap jumlah penyewaan
+# Instruksi Setup
+1. Setup Environment (gunakan Anaconda atau pipenv):
+   - Anaconda:
+     ```bash
+     conda create --name main-ds python=3.9
+     conda activate main-ds
+     pip install -r requirements.txt
+     ```
+   - Shell/Terminal:
+     ```bash
+     mkdir proyek_analisis_data
+     cd proyek_analisis_data
+     pipenv install
+     pipenv shell
+     pip install -r requirements.txt
+     ```
 
-# 🛠️ Cara Menjalankan Proyek
-1. Instal pustaka yang diperlukan
-2. Jalankan Dashboard Streamlit
-3. Buka di browser melalui `http://localhost:8501`
+2. Jalankan Dashboard Streamlit:
+   ```bash
+   streamlit run dashboard.py
